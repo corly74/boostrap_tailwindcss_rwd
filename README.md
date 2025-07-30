@@ -1,4 +1,4 @@
-# boostrap_tailwindcss_rwd 22
+# boostrap_tailwindcss_rwd
 Bootstrap/Tailwind/RWD作品集
 
 # 🎨 RWD 切版作品集（含自設計版型 & 他人提供設計版形）
