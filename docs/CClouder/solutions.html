@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="./src/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="relative flex justify-center   h-36  ">
+
+
+        <div class="fixed flex pb-2   mt-20 w-full px-20 lg:px-10 md:px-6 sm:px-4   z-20  bg-white/70">
+
+            <a class="p-1 mt-3 mb-1">
+                <img src="../img/oringinal_logo.svg" width="70" height="auto">
+            </a>
+            <div class="flex flex-col mt-2 lg:hidden ">
+                <p class="text-2xl font-bold text-primary"> 擎雲數位科技</p>
+                <p class="text-lg  text-primary"> 經過評鑑考驗的整合式醫學教育學習歷程系統</p>
+
+            </div>
+
+
+            <!-- deskTop menu -->
+            <ul class="flex gap-4 justify-end items-end ml-auto lg:hidden">
+                <li class=" font-semibold">
+                    <a class="block text-primary hover:text-orange-400 active:text-orange-500 fadeIn active"
+                        href="">解決方案</a>
+                </li>
+                <li class=" font-semibold">
+                    <a class="block text-primary hover:text-orange-500 fadeIn" href=""> 關於我們</a>
+                </li>
+                <li class="font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href="">其他產品</a>
+                </li>
+                <li class="font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href="">blog</a>
+                </li>
+                <li class="font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href=""> 聯絡我們</a>
+                </li>
+            </ul>
+            <!-- open mobile menu -->
+            <a href="javascript:void(0);" onclick="mobileMenu()"
+                class="ml-auto lg-fleex flex-none self-end lg-block hidden">
+                <p class="self-center text-primary">MENU</p>
+            </a>
+
+        </div>
+        <!-- mobile menu -->
+        <div id="topMenu" class="topMenu mt-36 z-10 w-full fixed hidden">
+            <ul class="text-center  block mt-1" style=" background-color: rgba(255, 255, 255 , 0.8);">
+                <li class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600 hover:font-semibold">
+                    <a class="  block   w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">解決方案</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" block   w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn" href="">
+                        關於我們</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">其他產品</a>
+                </li>
+                <li
+                    class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600  hover:font-semibold">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">blog</a>
+                </li>
+                <li
+                    class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold ">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn" href="">
+                        聯絡我們</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+  
+
+    <div class="px-20  pt-16 mb-16 ">
+
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title2 sidelines text-primary  ">
+                <div class="title  text-center ">
+                    <p class="text-3xl lg:text-2xl leading-relaxed">整合式醫學教育學習歷程系統</p>
+                    <p class="text-2xl lg:text-xl leading-relaxed font-poynter font-bold">Medical Education E-Portfolio
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+ 
+
+   
+    <div class="px-20 lg:px-10 xs:px-6 text-center pt-12 pb-20 bg-stone-100 ">
+
+        <p class="writing-vertical rotate-180 z-10 relative -mt-28">
+            Clouder Technology Inc.
+        </p>
+
+        <div class="-mt-16">
+            <div class="flex xl:flex-col">
+                <img src="../img/nurse.png" class=" h-5/6 sm:w-auto sm:ml-0 w-96 ml-10 p-1 bg-white border border-slate-100 rounded">
+                <div class="flex flex-col px-20 xl:px-10 xs:px-0 ">
+                    <div class="  title  text-left">
+                        <p class=" text-2xl  tracking-2 xl:pt-4">
+                            醫學臨床教育面對的挑戰
+                        </p>
+                    </div>
+
+
+
+                    <div class="grid md:grid-cols-1 grid-cols-2 gap-4 py-8">
+                        <div class="text-left ">
+                            <p class="text-2xl  text-orange-600 pb-4">醫療臨床教學的多工
+                            </p>
+                            <p class="text-slate-800">教學醫院裡的臨床場景中，醫療行為進行的同時，教學也正在發生。
+                                醫療人員執行專業醫療工作之餘，還需處理教學工作衍伸的繁多事項。
+                            </p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">臨床訓練流程複雜</p>
+                            <p class="text-slate-800">訓練計畫涵蓋訓練內容、評核方式、人員管理、時間規劃、多個訓練科室等問題，需考量面向多元，行政管理繁瑣複雜。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">教學醫院評鑑準備費時費力</p>
+                            <p class="text-slate-800">複雜的訓練流程，資料蒐集費時費力，也使得教學成果不易呈現，評鑑資料彙整費時費力。
+                            </p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">各醫事職類專業訓練多種樣態</p>
+                            <p class="text-slate-800">各職類醫事人員專業不同，需要不一樣的訓練方式、課程架構、評鑑門檻，醫院教學負責單位面對各職類不同的需求與問題。</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <p class="text-lg text-justify text-slate-600 lg:px-2  xs:px-0  tracking-wide xl:px-10 px-14 mt-8 ">
+                我國的醫學教育在102學年度起已將醫學系改制為六年制及與畢業後一般醫學訓練(Post Graduate Year, PGY)的結合，
+                醫療機構將肩負起更多醫學教育的職責、因此需要改善現有流程，臨床學習及教學對醫療人力素質及專業能力之養成扮演極為重要的角色，
+                然而<span
+                    class="underline underline-offset-8 decoration-orange-600">目前醫療機構普遍採用紙本學習護照做為學習與評量的輔助工具</span>，不僅造成大量的紙本作業與人力負擔，也不易考核學員能力以及規劃完善的教學計畫。
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="px-20  pt-16 mb-16 ">
+
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title2 sidelines text-primary  ">
+                <div class="title  text-center ">
+                    <p class="text-3xl lg:text-2xl leading-relaxed  ">我們提供的解決方案/ 產品特性</p>
+                    <p class="text-2xl lg:text-xl leading-relaxed font-poynter font-bold">Product Solution</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="px-20 text-center pt-12 pb-20 bg-stone-100 relative">
+        <p class="writing-vertical rotate-180 z-10 absolute  -mt-28 right-0">
+            Clouder Technology Inc.
+        </p>
+        <div class="mt-16">
+            <div class="flex xl:flex-col">
+                <div class="flex flex-col px-20 xl:px-10">
+
+                    <div class="grid md:grid-cols-1 grid-cols-2 gap-4 py-8">
+                        <div class="text-left ">
+                            <p class="text-2xl  text-orange-600 pb-4">整合數位學習工具
+                            </p>
+                            <p class="text-slate-800">系統單一入口整合課程系統、數位教材管理、線上測驗平台、評核表單簽合等教學所需的各種工具。
+                            </p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">彈性訓練架構</p>
+                            <p class="text-slate-800">彈性訓練框架可因應各科PGY、實習生、師資培育訓練需求，亦能滿足多科室訓練與跨領域教學等多種訓練模式。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">集中管理組織資料</p>
+                            <p class="text-slate-800">無紙化作業取代紙本學習護照，醫院組織內學習歷程資料集中管理。
+
+                            </p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">機動性臨床評核</p>
+                            <p class="text-slate-800 ">跨裝置使用體驗，滿足臨床教育所需的機動性，手機平板操作即時進行CbD、Mini-Cex、DOPs等各式臨床評核。</p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <img src="../img/headway-5QgIuuBxKwM-unsplash.jpg"
+                    class="h-5/6 w-96 ml-10 p-1 bg-white border border-slate-100 rounded">
+            </div>
+
+            <p class=" text-lg text-primary-600   font-semibold tracking-2 mt-8">
+                跨裝置行動服務，串連線上數位學習工具、與線下臨床教學場景，臨床教學專屬的整合式數位學習平台
+            </p>
+        </div>
+
+    </div>
+    <div class="px-20  pt-16 mb-16 ">
+
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title2 sidelines text-primary  ">
+                <div class="title  text-center ">
+                    <p class="text-3xl lg:text-2xl leading-relaxed  ">產品功能</p>
+                    <p class="text-2xl lg:text-xl leading-relaxed font-poynter font-bold">Product Features</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <div class="px-20 text-center pt-12 pb-20 bg-stone-100 relative">
+        <p class="writing-vertical rotate-180 z-10 relative -mt-28">
+            Clouder Technology Inc.
+        </p>
+
+
+        <div class="-mt-16">
+            <div class="flex xl:flex-col">
+                <img src="../img/patrick-perkins.jpg"
+                    class="h-5/6 w-96 ml-10 p-1 bg-white border border-slate-100 rounded">
+                <div class="flex flex-col px-20 xl:px-10">
+
+                    <div class="grid md:grid-cols-1 grid-cols-2 gap-8 py-8">
+                        <div class="text-left ">
+                            <p class="text-2xl  text-orange-600 pb-4">訓練項目與多種評核工具
+                            </p>
+                            <p class="text-slate-800">
+                                系統提供複合型數位學習工具：表單工具、線上測驗、滿意度問卷、課堂出席等，
+                                可依訓練計畫所需，訂定訓練項目與通過標準，推進訓練計畫進行，並追蹤學員通過狀態。
+                            </p>
+                        </div>
+                        <div class="text-left leading-7">
+                            <p class="text-2xl text-orange-600 pb-4">全方位表單功能</p>
+                            <ul class="text-slate-800 list-disc">
+                                <li class="font-semibold">直覺操作表單設計工具</li>
+                            </ul>
+                            <div class="indent-4 text-slate-800">
+                                <p class="">>多種題型自訂表單欄位內容</p>
+                                <p class="">>設定各欄位填寫角色（學員、教師、單位主管）</p>
+                            </div>
+                            <ul class="text-slate-800 list-disc">
+                                <li class="font-semibold">以教學角色為核心的簽核機制</li>
+                            </ul>
+                            <div class="indent-4 text-slate-800">
+                                <p class="">>以受訓學員為中心，依照學員、 臨床教師、長期導師、教學負責人等教學角色，設定表單簽核順序與機制</p>
+                            </div>
+                            <ul class="text-slate-800 list-disc">
+                                <li class="font-semibold">雙向回饋評核機制</li>
+                            </ul>
+                            <p>提供常用CbD/ Mini-Cex/ Dops評核表單模板以及滿意度問卷範本，依照表單欄位填寫角色與簽核流程設定，快速建立雙向回饋機制</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">例行性作業自動化執行</p>
+                            <p class="text-slate-800">依訓練計畫進程，排定表單、測驗、問卷發送日期或天數，排程自動化發送，追蹤個別學員完成狀態。
+                            </p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">跨裝置行動服務</p>
+                            <p class="text-slate-800 ">系統支援各式瀏覽器與行動裝置，課程點名、測驗考試、問卷調查自動產出QRcode，即時因應課堂需求，整合線下教學與線上使用體驗。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-red-800 pb-4">訓練時程與人員管理</p>
+                            <p class="text-red-800/90  ">系統支援各式瀏覽器與行動裝置，課程點名、測驗考試、問卷調查自動產出QRcode，即時因應課堂需求，整合線下教學與線上使用體驗。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">個人學習歷程紀錄</p>
+                            <p class="text-slate-800 ">學習歷程資料清楚呈現修課記錄、評核結果、測驗成績，掌握個人成長軌跡，學習紀錄一目瞭然。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-orange-600 pb-4">數據資料呈現訓練成果</p>
+                            <p class="text-slate-800 ">表單統計圖表、問卷調查結果、訓練計畫完成度等數據佐證資料一鍵匯出，快速準備教學評鑑。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-red-800 pb-4">權限管理與知識授權</p>
+                            <p class="text-red-800/90  ">符合醫院組織結構的權限管理，以使用者權限區隔各科資料，分流管理。課程教材與測驗題庫等資料線上管理，並可設定授權，促進單位間知識內容分享交流。</p>
+                        </div>
+                        <div class="text-left ">
+                            <p class="text-2xl text-red-800 pb-4">使用者角色轉換</p>
+                            <p class="text-red-800/90  ">依使用需求區分學員、教師、單位管理者、總管理者等使用者權限，呈現特定角色所需之功能介面，使用者登入後，可自由在學員、教師、管理者身份切換，輔助身兼教學行政工作的使用者釐清繁雜工作項目。</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <p class="text-lg text-slate-800 text-center  tracking-wide px-14 mt-8 ">
+                *功能項目或許過長，<span class="text-red-800">棕色項目 </span>視情況省略。
+                ，不僅造成大量的紙本作業與人力負擔，也不易考核學員能力以及規劃完善的教學計畫。
+            </p>
+
+
+        </div>
+
+
+
+    </div>
+
+    <div class="px-20  pt-16 mb-16 ">
+
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title2 sidelines text-primary  ">
+                <div class="title  text-center ">
+                    <p class="text-3xl lg:text-2xl leading-relaxed  ">成功導入醫院</p>
+                    <p class="text-2xl lg:text-xl leading-relaxed font-poynter font-bold">Our Clients
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <p class="text-center text-xl text-slate-700   font-semibold tracking-2 leading-8 ">
+            臺北醫學大學、北醫附設醫院、萬芳醫院、雙和醫院、中國醫藥大學、亞洲大學附設醫院、
+            奇美醫院、國軍總醫院、國軍左營分院、花蓮慈濟醫院、台北慈濟醫院、永和耕莘醫院、輔英科技大學附設醫院等
+            
+            
+        </p>
+
+    </div>
+    <div class="flex md:flex-col px-20  py-16 bg-stone-100 gap-8">
+        <a class="p-1 mt-6 ">
+            <img src="../img/clouder-b.png" width="90" height="auto">
+        </a>
+        <div class="auto-cols-auto  md:w-1/2 lg:w-1/3 mt-6 text-primary">
+            <div class="text-lg">80765 高雄市三民區九如一路502號10樓A3</div>
+            
+
+        </div>
+        <div class="auto-cols-auto  md:w-1/2 lg:w-1/3 mt-6 text-primary">
+            
+            <div class="text-lg">E-mail: service@clouder.com.tw</div>
+
+        </div>
+        <div class="auto-cols-auto md:w-1/2 lg:w-1/3 mt-6 text-primary">
+            <div class="text-lg">Tel: 07-3980788</div>
+          
+        </div>
+        <div class="auto-cols-auto md:w-1/2 lg:w-1/3 mt-6 text-primary">
+           
+            <div class="text-lg">Fax: 07-3980599</div>
+        </div>
+    </div>
+    <p class="text-center">© Clouder technology Inc. All rights reserved</p>
+    <script>
+        function mobileMenu() {
+            document.getElementById('topMenu').classList.toggle('hidden');
+        };
+
+    </script>
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   // content: [],
-  content: ["./src/**/*.{html,jsx}"],
+  content: ["./docs/CClouder/**/*.{html,js,jsx}"],
   theme: {
     // theme裡面清除預設 ,再新增
     extend: {

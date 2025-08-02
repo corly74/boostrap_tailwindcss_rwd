@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link href="./src/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <div class="relative flex justify-center   h-36  ">
+
+
+        <div class="fixed flex pb-2   mt-20 w-full px-20 lg:px-10 md:px-6 sm:px-4   z-20  bg-white/70">
+
+            <a class="p-1 mt-3 mb-1">
+                <img src="../img/oringinal_logo.svg" width="70" height="auto">
+            </a>
+            <div class="flex flex-col mt-2 lg:hidden ">
+                <p class="text-2xl font-bold text-primary"> 擎雲數位科技</p>
+                <p class="text-lg  text-primary"> 經過評鑑考驗的整合式醫學教育學習歷程系統</p>
+
+            </div>
+
+
+            <!-- deskTop menu -->
+            <ul class="flex gap-4 justify-end items-end ml-auto lg:hidden">
+                <li class="nav-item font-semibold">
+                    <a class="nav-link hover:text-orange-400 fadeIn" href="">解決方案</a>
+                </li>
+                <li class="nav-item font-semibold">
+                    <a class="nav-link hover:text-orange-500 fadeIn" href=""> 關於我們</a>
+                </li>
+                <li class="nav-item font-semibold">
+                    <a class="nav-link hover:text-orange-600 fadeIn" href="">其他產品</a>
+                </li>
+                <li class="nav-item font-semibold">
+                    <a class="nav-link hover:text-orange-600 fadeIn" href="">blog</a>
+                </li>
+                <li class="nav-item font-semibold">
+                    <a class="nav-link hover:text-orange-600 fadeIn" href=""> 聯絡我們</a>
+                </li>
+            </ul>
+            <!-- open mobile menu -->
+            <a href="javascript:void(0);" onclick="mobileMenu()"
+                class="ml-auto lg-fleex flex-none self-end lg-block hidden">
+                <p class="self-center text-primary">MENU</p>
+            </a>
+
+        </div>
+        <!-- mobile menu -->
+        <div id="topMenu" class="topMenu mt-36 z-10 w-full fixed hidden">
+            <ul class="text-center  block mt-1" style=" background-color: rgba(255, 255, 255 , 0.5);">
+                <li class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600 hover:font-semibold">
+                    <a class="  nav-link   w-full  hover:font-semibold hover:text-slate-600 fadeIn" href="">解決方案</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" nav-link   w-full hover:font-semibold hover:text-slate-600 fadeIn" href=""> 關於我們</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" nav-link  w-full hover:font-semibold hover:text-slate-600 fadeIn" href="">其他產品</a>
+                </li>
+                <li
+                    class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600  hover:font-semibold">
+                    <a class=" nav-link  w-full hover:font-semibold hover:text-slate-600 fadeIn" href="">blog</a>
+                </li>
+                <li
+                    class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold ">
+                    <a class=" nav-link  w-full hover:font-semibold hover:text-slate-600 fadeIn" href=""> 聯絡我們</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
