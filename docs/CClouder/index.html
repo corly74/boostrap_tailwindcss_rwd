@@ -1,0 +1,414 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./dist/output.css" rel="stylesheet">
+    <link href="./js/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+
+    <div class="relative flex justify-center   h-36  ">
+
+
+        <div class="fixed flex pb-2   mt-10 w-full px-20 lg:px-10 md:px-6 sm:px-4   z-20  bg-white/70">
+
+            <a class="p-1 mt-3 mb-1">
+                <img src="./img/oringinal_logo.svg" width="70" height="auto">
+            </a>
+            <div class="flex flex-col mt-2 lg:hidden ">
+                <p class="text-2xl font-bold text-primary"> 擎雲數位科技</p>
+                <p class="text-lg  text-primary"> 經過評鑑考驗的整合式醫學教育學習歷程系統</p>
+
+            </div>
+
+
+            <!-- deskTop menu -->
+            <ul class="flex gap-4 justify-end items-end ml-auto lg:hidden">
+                <li class=" font-semibold">
+                    <a class="block text-primary hover:text-orange-400 fadeIn" href="">解決方案</a>
+                </li>
+                <li class=" font-semibold">
+                    <a class="block text-primary hover:text-orange-500 fadeIn" href=""> 關於我們</a>
+                </li>
+                <li class="font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href="">其他產品</a>
+                </li>
+                <li class="font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href="">blog</a>
+                </li>
+                <li class=" font-semibold">
+                    <a class="block text-primary hover:text-orange-600 fadeIn" href=""> 聯絡我們</a>
+                </li>
+            </ul>
+            <!-- open mobile menu -->
+            <a href="javascript:void(0);" onclick="mobileMenu()"
+                class="ml-auto lg-fleex flex-none self-end lg-block hidden">
+                <p class="self-center text-primary">MENU</p>
+            </a>
+
+        </div>
+        <!-- mobile menu -->
+        <div id="topMenu" class="topMenu mt-36 z-10 w-full fixed hidden">
+            <ul class="text-center  block mt-1" style=" background-color: rgba(255, 255, 255 , 0.8);">
+                <li class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600 hover:font-semibold">
+                    <a class=" block   w-full text-primary  hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">解決方案</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" block   w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn" href="">
+                        關於我們</a>
+                </li>
+                <li class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">其他產品</a>
+                </li>
+                <li
+                    class="grid h-16 content-center  hover:bg-gray-blue ml-03 hover:text-slate-600  hover:font-semibold">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn"
+                        href="">blog</a>
+                </li>
+                <li
+                    class="grid h-16 content-center hover:bg-gray-blue ml-03  hover:text-slate-600 hover:font-semibold ">
+                    <a class=" block  w-full text-primary hover:font-semibold hover:text-slate-600 fadeIn" href="">
+                        聯絡我們</a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="bannar block w-full mt-16 relative">
+        <div class="banner-caption   ">
+            <p class="text-white text-lg font-light">
+                有效因應教學醫院評鑑與評量基準
+
+            </p>
+            <p class="text-white text-lg font-light">
+                多年實際支援評鑑經驗的系統( ~ since 2016)
+
+            </p>
+            <p class="text-white text-xl font-bold leading-11 tracking-s">
+                (第一個通過醫學中心等級評鑑考驗的系統)
+            </p>
+        </div>
+        <div
+            class="btn font-semibold duration-700 ease-in-out bg-orange-500 ring-0  ring-offset-indigo-400/30 hover:ring-offset-2 ring-offset-sky-300 hover:bg-orange-600 text-white absolute bottom-20 left-48 w-64 rounded-md tracking-1 text-lg ">
+            解決方案
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+    <div class="px-48 pt-10 py-28 mt-52    bg-stone-100 ">
+
+        <div class="section-line flex  justify-center mt-24 my-20 ">
+            <div class="section-line-title sidelines text-primary font-bold ">
+                <div class="title">
+                    <p class="font-poynter font-bold"> Products solutions</p>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="grid grid-cols-4 gap-16 ">
+
+
+            <div class="card flex-col  bg-white shadow-xl transition ease-in-out delay-150 duration-150 hover:-translate-y-4"
+                onmouseover="addanimation(this)" onmouseout="removenimation(this)">
+                <div
+                    class="card-body p-8 gap-2 bg-gray-blue  rounded-t-lg border border-t-slate-300 border-x-slate-300 h-28 justify-center">
+                    <p class=" text-lg font-semibold tracking-1 text-center ">同時支援所有職類臨床醫學教育</p>
+                </div>
+                <div
+                    class="card-body flex-col p-8 gap-2 bg-white rounded-b-lg border-b-slate-300 border border-y-slate-300 h-56">
+                    <p class="text-base font-light tracking-wide">包含(PGY醫師、牙醫、護理師、所有職類醫事人員、實習醫師)，而且具有十年以上實施經驗。</p>
+                    <i class="fa-solid fa-arrow-right-long arrow  text-2xl"></i>
+                </div>
+            </div>
+
+            <div class="card flex-col  bg-white shadow-xl transition ease-in-out delay-150 duration-150 hover:-translate-y-4"
+                onmouseover="addanimation(this)" onmouseout="removenimation(this)">
+                <div
+                    class="card-body p-8 gap-2 bg-gray-blue rounded-t-lg border border-t-slate-300 border-x-slate-300 h-28 justify-center">
+                    <p class=" text-lg font-semibold tracking-1 text-center">整合所有數位學習系統功能</p>
+                </div>
+                <div
+                    class="card-body flex-col p-8 gap-2 bg-white rounded-b-lg border border-b-slate-300 border-y-slate-300 h-56">
+                    <p class="text-base font-light tracking-wide">(從規劃、課程、學習、評核、回饋到各式統計報表產出)，所有資訊會自動彙集到設定好的流程並產出對應的統計報表。
+                    </p>
+                    <i class="fa-solid fa-arrow-right-long arrow  text-2xl"></i>
+                </div>
+            </div>
+
+
+            <div class="card flex-col  bg-white shadow-xl transition ease-in-out delay-150 duration-150 hover:-translate-y-4 "
+                onmouseover="addanimation(this)" onmouseout="removenimation(this)">
+                <div
+                    class="card-body p-8 gap-2 bg-gray-blue rounded-t-lg border border-t-slate-300 border-x-slate-300 h-28 justify-center">
+                    <p class=" text-lg font-semibold tracking-1  text-center">系統完整支援各種身份</p>
+
+                </div>
+                <div
+                    class="card-body flex-col p-8 gap-2 bg-white rounded-b-lg border border-b-slate-300 border-y-slate-300 h-56">
+                    <p class="text-base font-light tracking-wide">學部門主管(總管理者)、單位主管(單位管理者)、各單位助理(單位協助管理者)、教師與導師、學員。</p>
+                    <i class="fa-solid fa-arrow-right-long arrow  text-2xl"></i>
+                </div>
+            </div>
+
+            <div class="card flex-col  bg-white shadow-xl  transition ease-in-out delay-150 duration-150 hover:-translate-y-4"
+                onmouseover="addanimation(this)" onmouseout="removenimation(this)">
+                <div
+                    class="card-body p-8 gap-2 bg-gray-blue rounded-t-lg border border-t-slate-300 border-x-slate-300 h-28 justify-center">
+                    <p class=" text-lg font-semibold tracking-1 text-center">系統採高度模組化設計</p>
+                </div>
+                <div
+                    class="card-body flex-col p-8 gap-2 bg-white rounded-b-lg border border-b-slate-300 border-y-slate-300 h-60 ">
+                    <p class="text-base font-light tracking-wide">
+                        可以依醫院規模或導入期程的考量階段性導入，也可以針對醫院特色發展需要開發客製化功能，是目前業界最有彈性與經濟效益的架構。
+                    </p>
+                    <i class="fa-solid fa-arrow-right-long arrow  text-2xl"></i>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="px-20 text-center pt-16 pb-20 bg-stone-100 ">
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title sidelines text-primary font-bold ">
+                <div class="title">
+                    <p class="font-poynter font-bold">
+                        Who uses
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="logo-section relative mt-24 flex justify-center">
+            <div class="fade-left absolute z-10 left-28 top-0 w-24 h-24 "></div>
+            <div class="swiper--blog__rev__container overflow-hidden">
+                <div class="swiper--blog__wrapper">
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/ch_mei-logo.png" width="auto" style="height:4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/kafgh.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/tmu.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/cmuh.png" width="auto" style="height:4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/auh.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide px-24">
+                        <img src="./img/hualien_tch.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                </div>
+
+            </div>
+            <div class="fade-right absolute z-10 right-28 top-0 w-24 h-24 "></div>
+        </div>
+
+
+        <div class="logo-section relative mt-24 flex justify-center">
+            <div class="fade-left absolute z-10 left-28 top-0 w-24 h-24 "></div>
+            <div class="swiper--blog__rev__container2 overflow-hidden">
+                <div class="swiper--blog__wrapper2">
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/fyh.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/ycth.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/Taipei_Medical_University_Hospital.png" width="auto"
+                            style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/WFH.png" width="auto" style="height:4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/Shuang_Ho_Hosp.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                    <div class="swiper--blog__slide2">
+                        <img src="./img/tch-taipei.png" width="auto" style="height: 4rem !important;">
+                    </div>
+                </div>
+
+            </div>
+            <div class="fade-right absolute z-10 right-28 top-0 w-24 h-24 "></div>
+        </div>
+    </div>
+
+    <div class="px-20  pt-16 mb-16 ">
+        <div class="section-line flex  justify-center  my-10 ">
+            <div class="section-line-title sidelines text-primary font-bold ">
+                <div class="title">
+                    <p class="font-poynter font-bold">
+                        技術優勢
+                    </p>
+                </div>
+               
+            </div>
+
+
+        </div>
+
+        <div class="grid grid-flow-row-dense grid-cols-2 grid-rows-2">
+            <div class="col-span-1 px-24 leading-10 ">
+                <span class="text-lg leading-10 text-gray-600">在</span>
+                <span class=" text-4xl leading-10 text-primary ">
+                    垂直整合
+                </span>
+
+                <span class="text-lg tracking-widest leading-10 text-gray-600">
+                    方面，我們從底層作業系統(特別專長Linux系統)以及各式虛擬化技術(Xen、KVM、VMware等)，到中介層軟體(例如各式Framework、MySQL)，
+                    以及各式先進Web技術(PHP、Ajax、JavaScrip、HTML5等等)以及行動應用開發(Android與iOS)都各有專精的人員。
+                </span>
+
+            </div>
+            <div class="col-span-1  "></div>
+            <div class="col-span-1 "></div>
+            <div class="col-span-1 px-24 ">
+                <span class="text-lg leading-10 text-gray-600">在</span>
+                <span class="text-4xl leading-10 text-primary">
+                    平行整合
+                </span>
+                <span class="text-lg tracking-wides leading-10 text-gray-600">
+                    方面，我們具備整合行動服務、大型Web系統、數位學習/教學、職涯能力發展等專業領域於一整合系統的經驗，
+                    目前本公司已有自行開發整合式數位行動學習系統、職涯能力與歷程發展系統等大型系統，系統不僅已被多所大學與中小學採用，
+                    最近並獲得奇美醫學中心採用成為該中心新一代的醫學教育與學習歷程系統；我們也具有豐富的客制化能力與經驗，
+                    可依使用者環境與客戶需求來發展其專屬的系統。
+                </span>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="flex px-20  py-16 bg-stone-100 gap-4">
+        <a class="p-1 mt-6 ">
+            <img src="./img/clouder-b.png" width="90" height="auto">
+        </a>
+        <div class="auto-cols-auto w-1/4 mt-6 text-primary">
+            <div class="text-lg">80765 高雄市三民區九如一路502號10樓A3</div>
+            <div class="text-lg">E-mail: service@clouder.com.tw</div>
+
+        </div>
+        <div class="auto-cols-auto w-1/4 mt-6 text-primary">
+            <div class="text-lg">Tel: 07-3980788</div>
+            <div class="text-lg">Fax: 07-3980599</div>
+        </div>
+    </div>
+    <p class="text-center">© Clouder technology Inc. All rights reserved</p>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+
+    <script>
+        function addanimation(element) {
+            var elementAddClass = element.getElementsByClassName('arrow')[0];
+            elementAddClass.classList.add('animation-to-r');
+
+        }
+
+        function removenimation(element) {
+            var elementAddClass = element.getElementsByClassName('arrow')[0];
+            elementAddClass.classList.remove('animation-to-r');
+
+        }
+
+
+
+
+        var blogSliderRev = new Swiper('.swiper--blog__rev__container', {
+            wrapperClass: 'swiper--blog__wrapper',
+            slideClass: 'swiper--blog__slide',
+            touchEventsTarget: 'swiper--blog__wrapper',
+            slidesPerView: 'auto',
+            direction: 'horizontal',
+            spaceBetween: 0,
+            freeMode: true,
+            freeModeMomentum: true,
+            freeModeMomentumBounce: false,
+            speed: 5000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: true,
+
+                reverseDirection: true,
+            },
+            loop: true,
+            grabCursor: true,
+        });
+
+        blogSliderRev.on('touchEnd', function () {
+            blogSliderRev.autoplay.start();
+        });
+
+
+        var blogSliderRev = new Swiper('.swiper--blog__rev__container2', {
+            wrapperClass: 'swiper--blog__wrapper2',
+            slideClass: 'swiper--blog__slide2',
+            touchEventsTarget: 'swiper--blog__wrapper2',
+            slidesPerView: 'auto',
+            direction: 'horizontal',
+            spaceBetween: 0,
+            freeMode: true,
+            freeModeMomentum: true,
+            freeModeMomentumBounce: false,
+            speed: 5000,
+            autoplay: {
+                delay: 0,
+                disableOnInteraction: true,
+                // reverseDirection: true,
+            },
+            loop: true,
+            grabCursor: true,
+        });
+
+        blogSliderRev.on('touchEnd', function () {
+            blogSliderRev.autoplay.start();
+        });
+
+
+        // function mobileMenu() {
+        //     var x = document.getElementById("topMenu");
+
+        //     if (x.className === "hidden") {
+        //         x.classList.remove("hidden");
+
+        //     } else {
+        //         x.className.add = "hidden";
+        //     }
+
+        // }
+
+        function mobileMenu() {
+            document.getElementById('topMenu').classList.toggle('hidden');
+        };
+
+
+    </script>
+</body>
+
+</html>
