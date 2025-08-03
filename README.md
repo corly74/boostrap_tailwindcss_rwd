@@ -17,3 +17,12 @@ Bootstrap/Tailwind/RWD作品集
 - 💡 特色元件：導覽列、卡片區塊、行動導向按鈕
 ![project1](./assets/BusLine_cover.png) 
 
+<hr>
+
+### 🔹 作品二：資訊公司官網（Tailwind CSS）
+[網頁連結](https://haleyhsieh.github.io/boostrap_tailwindcss_rwd/CClouder/index.html)<br />
+網頁開發：Haley Hsieh<br />
+網頁設計：Haley Hsieh<br />
+ 🔧 使用技術：HTML5 + Tailwind CSS + ES5
+- 📱 響應式支援手機 / 平板 / 桌機
+- 💡 特色元件：導覽列、卡片區塊、行動導向按鈕、swiper幻燈片/跑馬燈套件、介面微動態互動
