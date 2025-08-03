@@ -29,7 +29,7 @@
 
     .banner-caption {
         position: absolute;
-        position: absolute;
+      
         left: 12rem;
         bottom: 10rem;
 
@@ -156,8 +156,8 @@ letter-spacing: 2rem;
     }
 
     .animation-to-r{
-        width: 25x;
-        height: 200px;
+        width:20px;
+        height: 30px;
         position: relative;
         animation: arrow 1s ;
         animation-fill-mode: forwards;
@@ -165,7 +165,7 @@ letter-spacing: 2rem;
     
 
     @keyframes arrow {
-        from {left: 0px;}
+        from {left: 10px;}
         to {left: 30px;}
       }
 
