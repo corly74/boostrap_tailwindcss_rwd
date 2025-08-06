@@ -3,7 +3,7 @@ const plugin = require('tailwindcss/plugin');
 module.exports = {
   // content: [],
   content: ["./docs/CClouder/**/*.{html,js,jsx}"],
-  safelist: ['w-full',],
+   safelist: ['w-full'],
   theme: {
     // theme裡面清除預設 ,再新增
     extend: {
