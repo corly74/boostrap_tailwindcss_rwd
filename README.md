@@ -26,3 +26,4 @@ Bootstrap/Tailwind/RWD作品集
  🔧 使用技術：HTML5 + Tailwind CSS + ES5
 - 📱 響應式支援手機 / 平板 / 桌機
 - 💡 特色元件：導覽列、卡片區塊、行動導向按鈕、swiper幻燈片/跑馬燈套件、介面微動態互動
+- ![project1](./assets/CClouder_cover.png) 
